@@ -19,3 +19,4 @@ print("Il deposito iniziale è:", "%.2f" %initial_deposit)
 print("Il deposito dopo un anno è:", "%.2f" %deposit_1_year)
 print("Il deposito dopo due anni è:", "%.2f" %deposit_2_year)
 print("Il deposito dopo tre anni è:", "%.2f" %deposit_3_year)
+
