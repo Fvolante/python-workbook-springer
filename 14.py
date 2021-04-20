@@ -21,6 +21,4 @@ user_inches_in_cm = user_inches * INCH_IN_CM
 # total size in centimetres
 total_cm_height = user_feet_in_cm + user_inches_in_cm
 
-print("la tua altezza in centimetri è %i" %total_cm_height)
-
-
+print("la tua altezza in centimetri è %i cm" %total_cm_height)
