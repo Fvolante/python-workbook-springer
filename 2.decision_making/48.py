@@ -29,6 +29,7 @@ month = input("Inserisci il tuo mese di nascita: ")
 
 # check signs
 if month == "dicembre":
+    # assign value using ternary operator
     sign = "Capricorno" if day >= 22 else "Sagittario"
 elif month == "gennaio":
     sign = "Acquario" if day >= 20 else "Capricorno"
