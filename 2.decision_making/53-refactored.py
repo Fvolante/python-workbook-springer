@@ -23,6 +23,7 @@ F = 0
 # user's points
 points = float(input("Inserisci il punteggio: "))
 
+# function to find differrences from closest constants
 def find_diff (higher, lower, points):
     diff_up = abs(higher - points)
     diff_down = abs(lower - points)
