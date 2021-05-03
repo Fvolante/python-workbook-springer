@@ -19,9 +19,6 @@ day = int(input("Inserisci il giorno: "))
 # check leap year
 #
 
-# set leap variable
-is_leap = False
-
 # leap check
 if year % 400 == 0:
     is_leap = True
