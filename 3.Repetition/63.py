@@ -9,7 +9,7 @@
 #
 
 # set inputs and starting variables
-value = int(input("Inserisci un numero: "))
+value = float(input("Inserisci un numero: "))
 # set counter to compute average
 i = 0
 # set initial sum of values
@@ -21,10 +21,10 @@ while value != 0:
     values_sum = values_sum + value
 
     # insert new value
-    value = int(input("Inserisci un numero (0 per uscire): "))
+    value = float(input("Inserisci un numero (0 per uscire): "))
 
 # compute average
-average = values_sum / i
+average = round(values_sum / i, 2)
 
 # print results
 if values_sum != 0:
