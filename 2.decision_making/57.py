@@ -43,7 +43,7 @@ else:
 charge = base_charge + SUPPORT_911
 taxes = round(charge * TAX_RATE, 2)
 final_charge = round(charge + taxes, 2)
-charge_message = "La tua bolletta mensile è equivalente al costo base di", base_charge, "euri più il costo di supporto al 911 di", SUPPORT_911, " euri e il costo di tasse dello 0.5%, pari a", taxes, "euri."
+charge_message = "La tua bolletta mensile è equivalente al costo base di " + str(base_charge) + " euri più il costo di supporto al 911 di " + str(SUPPORT_911) + " euri e il costo di tasse dello 0.5%, pari a " + str(taxes)+ " euri."
 
 # print result
 if base_charge == 15.00:
