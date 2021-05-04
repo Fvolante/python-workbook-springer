@@ -13,7 +13,7 @@ celsius = float(input("Inserisci la temperatura in C°: "))
 
 # convesrion
 kel = celsius + 273.15
-far = ( celsius * (9/5) ) + 32
+far = ( celsius * 9/5 ) + 32
 
 # result
-print("%.2f gradi Celsius corrispondono a \n%.2f Kelvin e \n36%.2f Farheneit" %(celsius, kel, far))
+print("%.2f gradi Celsius corrispondono a \n%.2f Kelvin e \n%.2f Farheneit" %(celsius, kel, far))
