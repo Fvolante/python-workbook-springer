@@ -23,6 +23,7 @@
 # 3
 #
 
+# set initial variables
 n = int(input("Inserisci un numero da 2 in su: "))
 f = 2
 
