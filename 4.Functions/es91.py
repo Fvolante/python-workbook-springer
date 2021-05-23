@@ -64,10 +64,11 @@ def monthDays(month, year):
     return month_days
 
 ##
-# find exact number of days of single month
+# convert a gregorian date to ordinal one
+# @param int day to convert
 # @param int month to check
 # @param year int to check leap or not
-# @int number of days
+# @return int number of days
 #    
 def ordinalDate(day, month, year):
 
@@ -78,20 +79,16 @@ def ordinalDate(day, month, year):
     for i in range(1, month):
         final_days = final_days + monthDays(i, year)
 
-    # add current month days
-    final_days = final_days + day
-    print("La data corrisponde a: %i-%i" %(final_days, year))
-
+    # result
+    return final_days + day
     
-
-
 def main():
     
     day = int(input("Inserisci il giorno: "))
     month = int(input("Inserisci il mese: "))
     year = int(input("Inserisci l'anno: "))
 
-    ordinalDate(day, month, year)
+    print("La data corrisponde a: %i-%i" %(ordinalDate(day, month, year), year))
 
 if __name__ == "__main__":
     main()
