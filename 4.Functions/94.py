@@ -44,4 +44,4 @@ def main():
     else:
         print("Le misure non sono valide per formare un triangolo")
 
-main()    
+main()   
