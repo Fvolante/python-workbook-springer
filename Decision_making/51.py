@@ -40,11 +40,11 @@ if discr > 0:
 
 # one solution for discr == 0
 elif discr == 0:
-    root = -(b / 2 * a)
+    root = (-b / 2 * a)
     print("Il discriminante è 0 e la funzione ha una singola radice:", root)
 
 # no solution for discr < 0
 else:
     print("La funzione quadratica non ha radici reali")
-
+ 
 

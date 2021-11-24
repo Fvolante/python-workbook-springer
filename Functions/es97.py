@@ -34,7 +34,7 @@ def precedence(s):
 
 # define and launch main program
 def main():
-    s = input("Inserisci un operatore matematico: ")\
+    s = input("Inserisci un operatore matematico: ")
     
     s = precedence(s)
 
