@@ -55,11 +55,11 @@ def all_primes(limit):
 
     for el in all_numbers:
         
-        if el not in result:
+        if el != 0:
             result.append(el)
         
     print(result)    
 
-all_primes(1000000)
+all_primes(100)
 
 

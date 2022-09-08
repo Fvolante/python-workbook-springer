@@ -1,4 +1,4 @@
-##
+10##
 # The program that you create for this exercise will begin by reading the cost of a meal
 # ordered at a restaurant from the user. Then your program will compute the tax and
 # tip for the meal. Use your local tax rate when computing the amount of tax owing.
@@ -8,13 +8,13 @@
 # are displayed using two decimal places.
 #
 
-IVA = 10
-TIP = 18
+IVA = 0.10
+TIP = 0.18
 
 cost = float( input("Inserisci il costo del pasto in euri: ") )
 
-iva_cost = cost / IVA
-tip_cost = cost / TIP
+iva_cost = cost * IVA
+tip_cost = cost * TIP
 
 total = cost + iva_cost + tip_cost
 

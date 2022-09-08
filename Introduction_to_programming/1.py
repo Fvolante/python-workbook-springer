@@ -2,12 +2,12 @@
 # Stampare l'indirizzo di una persona
 #
 
-name = 'Francesco'
-surname = 'Lamacchia'
-address = 'via Abate Gimma'
-civico = 273
+name = 'Tonino'
+surname = 'Talludi'
+address = 'via Dante'
+civico = 23
 cap = 70123
-city = 'Bari'
+city = 'Messina'
 
 print(name, surname) 
 print("Indirizzo:", address, "n:", "%s" %civico)
